@@ -115,7 +115,7 @@ onRouteChange = (route) => {
   } else if (route === 'home') {
     this.setState({isSignedIn: true})
   }
-  this.setState({route: 'signin'});
+  this.setState({route: 'route'});
 } 
 
  render() {
